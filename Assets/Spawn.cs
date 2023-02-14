@@ -11,6 +11,7 @@ using System.Collections.Generic;
 public class Spawn : MonoBehaviour
 {
     public List<Transform> trs = new List<Transform>();
+    public List<Vector3> trsp = new List<Vector3>();
 
 
     public Vector3 spawnPos;
@@ -27,6 +28,7 @@ public class Spawn : MonoBehaviour
     void Update()
     {
         Click();
+        
         
         //Debug.Log(spawnPos);
     }
@@ -48,11 +50,13 @@ public class Spawn : MonoBehaviour
 
     void AddPos()
     {
-        /*GameObject[] stars = GameObject.FindGameObjectsWithTag("Player");
-        foreach (GameObject star in stars)
+        for (int i = 0; i < trs.Count; i++)
         {
-            star.transform.position = new Vector3(0, 0, 0);
-        }*/
+           // trsp.Count = trs.Count;
+
+
+
+        }
     }
     
 }

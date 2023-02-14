@@ -381,7 +381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a62a6dbe712d684586fee3f8f632a60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pos: []
+  trs: []
+  trsp: []
   spawnPos: {x: 0, y: 0, z: 0}
   pawns:
   - {fileID: 4155569264275196310, guid: 877c9e1404a22ea488549a7d23609d9b, type: 3}
